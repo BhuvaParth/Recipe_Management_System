@@ -2,38 +2,40 @@
     "recipesData": [
         {
             "id": 1,
-            "image": "https://via.placeholder.com/400x200",
+            "image": "https://via.placeholder.com/400x400",
             "title": "Samosa",
             "ingredients": "Chicken, Spices, Oil, etc.",
             "cookingtime": "30 minutes"
         },
         {
             "id": 3,
-            "image": "https://via.placeholder.com/400x200",
+            "image": "https://via.placeholder.com/400x400",
             "title": "Samosa",
             "ingredients": "Chicken, Spices, Oil, etc.",
             "cookingtime": "30 minutes"
         },
         {
             "id": 5,
-            "image": "https://via.placeholder.com/400x200",
-            "title": "Samosa",
+            "image": "https://via.placeholder.com/400x400",
+            "title": "dosa",
             "ingredients": "Chicken, Spices, Oil, etc.",
             "cookingtime": "30 minutes"
         },
         {
             "id": 4,
-            "image": "https://via.placeholder.com/400x200",
-            "title": "Samosa",
+            "image": "https://via.placeholder.com/400x400",
+            "title": "vada",
             "ingredients": "Chicken, Spices, Oil, etc.",
             "cookingtime": "30 minutes"
         },
         {
             "id": 2,
-            "image": "https://via.placeholder.com/400x200",
-            "title": "Samosa",
-            "ingredients": "Chicken, Spices, Oil, etc.",
-            "cookingtime": "30 minutes"
+            "image": "https://via.placeholder.com/400x400",
+            "title": "dal",
+            "description": "ry to popular belief, Lorem Ipsum isites of the wered thes from sections 1.",
+            "ingredients": "dal, Spices, Oil, etc.",
+            "cookingtime": "30 minutes",
+            "price": 10
         }
     ]
 }
