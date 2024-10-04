@@ -1,0 +1,16 @@
+{
+    "posts": [
+        {
+            "id": 1,
+            "title": "Hello World",
+            "author": "John Doe"
+        }
+    ],
+    "comments": [
+        {
+            "id": 1,
+            "body": "Nice post!",
+            "postId": 1
+        }
+    ]
+}
