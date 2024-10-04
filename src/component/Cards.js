@@ -71,7 +71,7 @@ export default function Cards() {
                 Ingredients: {recipe.ingredients}
               </p>
               <p className="text-gray-500">
-                Cooking Time: {recipe.cookingtime}
+                Cooking Time: {recipe.cookingTime}
               </p>
             </div>
           </Link>

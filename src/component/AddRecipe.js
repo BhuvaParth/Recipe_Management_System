@@ -19,8 +19,8 @@ export default function AddRecipe() {
 
     if (!formData.image) {
       newErrors.image = "Image URL is required.";
-    } else if (!formData.image.match(/^https?:\/\/.+\.(jpg|jpeg|png|webp|avif|gif|svg)$/)) {
-      newErrors.image = "Please enter a valid image URL (jpg, png, etc.).";
+    } else if (!formData.image.match(/^https?:\/\/.+/)) { 
+      newErrors.image = "Please enter a valid image URL.";
     }
 
     if (!formData.title) {
@@ -69,7 +69,7 @@ export default function AddRecipe() {
         },
         body: JSON.stringify({
           ...formData, 
-          id: Math.random().toString(36).substr(2, 9), 
+          id: Math.random().toString(36).substr(2, 9),
         }),
       })
       .then((response) => {

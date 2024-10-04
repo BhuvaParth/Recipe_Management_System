@@ -1,50 +1,58 @@
 {
   "recipesData": [
     {
-      "id": "1",
-      "image": "https://via.placeholder.com/400x400",
-      "title": "Samosa",
-      "ingredients": "Chicken, Spices, Oil, etc.",
-      "cookingtime": "30 minutes"
-    },
-    {
-      "id": "3",
-      "image": "https://via.placeholder.com/400x400",
-      "title": "Samosa",
-      "ingredients": "Chicken, Spices, Oil, etc.",
-      "cookingtime": "30 minutes"
-    },
-    {
-      "id": "5",
-      "image": "https://via.placeholder.com/400x400",
-      "title": "dosa",
-      "ingredients": "Chicken, Spices, Oil, etc.",
-      "cookingtime": "30 minutes"
-    },
-    {
-      "id": "4",
-      "image": "https://via.placeholder.com/400x400",
-      "title": "vada",
-      "ingredients": "Chicken, Spices, Oil, etc.",
-      "cookingtime": "30 minutes"
-    },
-    {
-      "id": "2",
-      "image": "https://via.placeholder.com/400x400",
-      "title": "dal",
-      "description": "ry to popular belief, Lorem Ipsum isites of the wered thes from sections 1.",
-      "ingredients": "dal, Spices, Oil, etc.",
-      "cookingtime": "30 minutes",
-      "price": 10
-    },
-    {
-      "id": "vrk8lmpyj",
-      "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/FOOD_CATALOG/IMAGES/CMS/2024/7/4/4e30b1ff-dbe8-41d3-b083-d46b9d742ffc_636d161e-7f34-4371-b63c-bf9e3d091a0f.jpg",
-      "title": "Pizza",
-      "description": "Pizza Pizza Pizza",
-      "ingredients": "Pizza Pizza Pizza Pizza",
+      "id": "mv50he3sm",
+      "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_600/5726ce6376bfa8df5b276523ebaabaf0.jpg",
+      "title": "Cheese Fried Maggi",
+      "description": "We start with perfectly cooked maggi noodles, tossed with a colorful medley of fresh vegetables including onions, bell peppers, carrots, peas, and cabbage, cheese lovers can enjoy a cheesy twist to their maggi by adding grated cheese or melting cheese on top of the cooked noodles.",
+      "ingredients": "We start with perfectly cooked maggi noodles, tossed with a colorful medley of fresh vegetables including onions, bell peppers, ",
       "cookingTime": "30",
+      "price": "150"
+    },
+    {
+      "id": "1wtz9iw71",
+      "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_600/h95z7s0mmk5fknkirn3z.jpg",
+      "title": "Cheese Maggi",
+      "description": "We start with perfectly cooked maggi noodles, tossed with a colorful medley of fresh vegetables including onions, bell peppers, carrots, peas, and cabbage, cheese lovers can enjoy a cheesy twist to their maggi by adding grated cheese or melting cheese on top of the cooked noodles.",
+      "ingredients": "We start with perfectly cooked maggi noodles, tossed with a colorful medley of fresh vegetables including onions, bell peppers, ",
+      "cookingTime": "20",
       "price": "25"
+    },
+    {
+      "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_600/FOOD_CATALOG/IMAGES/CMS/2024/9/5/078751fc-0ccf-40a0-bf8c-3df6d8145bfe_5472eecc-5f7d-47d5-9449-863652b4713f.jpeg",
+      "title": "Mattar Paneer",
+      "description": "A perfect combination of paneer and green peas, cooked in a spicy and comforting gravy.(serves 1) ",
+      "ingredients": "A perfect combination of paneer and green peas, cooked in a spicy and comforting gravy.(serves 1)",
+      "cookingTime": "30",
+      "price": "22",
+      "id": "kfopum2sk"
+    },
+    {
+      "id": "emzbzh4lf",
+      "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_600/FOOD_CATALOG/IMAGES/CMS/2024/3/12/a6e89fd5-4ae9-4c04-b1d3-7eeaeaf17327_5a967d8c-587b-4f6a-961e-891d7a685c16.jpg_compressed",
+      "title": "Greek Goddess Pizza",
+      "description": "Our signature pizza crust loaded with feta cheese + mozzarella cheese + cheddar cheese + olives + sun-dried tomatoes and cherry tomatoes",
+      "ingredients": "Our signature pizza crust loaded with feta cheese + mozzarella cheese + cheddar cheese + olives + sun-dried tomatoes and cherry tomatoes",
+      "cookingTime": "50",
+      "price": "30"
+    },
+    {
+      "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_600/0b6f9614dc52386079a6c8b0ac92c37e",
+      "title": "Kit Kat Shake (Medium)",
+      "description": "Creamy kit kat shake with crushed chocolate bars and vanilla & choclate ice cream. (350ml)",
+      "ingredients": "Creamy kit kat shake with crushed chocolate bars and vanilla & choclate ice cream. (350ml)",
+      "cookingTime": "20",
+      "price": "25",
+      "id": "m2zsarqnk"
+    },
+    {
+      "id": "kjm7jw3gt",
+      "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_600/b80a30b7d98f65dc6b7efcd71c7bfc89",
+      "title": "Vanila Shake (Medium)",
+      "description": "Smooth, creamy vanilla shake with rich, indulgent vanilla ice cream. (350ml)",
+      "ingredients": "Smooth, creamy vanilla shake with rich, indulgent vanilla ice cream. (350ml)",
+      "cookingTime": "20",
+      "price": "32"
     }
   ]
 }
