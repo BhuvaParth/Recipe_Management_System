@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
-export default function Cards() {
+export default function Cards({ searchQuery = "" }) { 
   const [recipes, setRecipes] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
@@ -46,6 +46,10 @@ export default function Cards() {
     return <div className="text-center">No recipes found.</div>;
   }
 
+  const filteredRecipes = recipes.filter(recipe =>
+    recipe.title.toLowerCase().includes(searchQuery.toLowerCase())
+  );
+
   return (
     <div className="max-w-screen-xl mx-auto px-4">
       <h1 className="text-3xl font-bold text-center mb-8">
@@ -53,29 +57,33 @@ export default function Cards() {
       </h1>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
-        {recipes.map((recipe) => (
-          <Link
-            to="/about"
-            state={recipe}
-            key={recipe.id}
-            className="bg-white rounded-lg shadow-lg overflow-hidden transition-transform transform hover:scale-105"
-          >
-            <img
-              src={recipe.image}
-              alt={recipe.title}
-              className="w-full h-48 object-cover"
-            />
-            <div className="p-4">
-              <h2 className="text-lg font-semibold mb-2">{recipe.title}</h2>
-              <p className="text-gray-700 mb-2">
-                Ingredients: {recipe.ingredients}
-              </p>
-              <p className="text-gray-500">
-                Cooking Time: {recipe.cookingTime}
-              </p>
-            </div>
-          </Link>
-        ))}
+        {filteredRecipes.length > 0 ? (
+          filteredRecipes.map((recipe) => (
+            <Link
+              to="/about"
+              state={recipe}
+              key={recipe.id}
+              className="bg-white rounded-lg shadow-lg overflow-hidden transition-transform transform hover:scale-105"
+            >
+              <img
+                src={recipe.image}
+                alt={recipe.title}
+                className="w-full h-48 object-cover"
+              />
+              <div className="p-4">
+                <h2 className="text-lg font-semibold mb-2">{recipe.title}</h2>
+                <p className="text-gray-700 mb-2">
+                  Ingredients: {recipe.ingredients}
+                </p>
+                <p className="text-gray-500">
+                  Cooking Time: {recipe.cookingTime}
+                </p>
+              </div>
+            </Link>
+          ))
+        ) : (
+          <div className="text-center">No recipes found for "{searchQuery}"</div>
+        )}
       </div>
     </div>
   );
