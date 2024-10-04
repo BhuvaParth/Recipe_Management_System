@@ -1,16 +1,39 @@
 {
-    "posts": [
+    "recipesData": [
         {
             "id": 1,
-            "title": "Hello World",
-            "author": "John Doe"
-        }
-    ],
-    "comments": [
+            "image": "https://via.placeholder.com/400x200",
+            "title": "Samosa",
+            "ingredients": "Chicken, Spices, Oil, etc.",
+            "cookingtime": "30 minutes"
+        },
         {
-            "id": 1,
-            "body": "Nice post!",
-            "postId": 1
+            "id": 3,
+            "image": "https://via.placeholder.com/400x200",
+            "title": "Samosa",
+            "ingredients": "Chicken, Spices, Oil, etc.",
+            "cookingtime": "30 minutes"
+        },
+        {
+            "id": 5,
+            "image": "https://via.placeholder.com/400x200",
+            "title": "Samosa",
+            "ingredients": "Chicken, Spices, Oil, etc.",
+            "cookingtime": "30 minutes"
+        },
+        {
+            "id": 4,
+            "image": "https://via.placeholder.com/400x200",
+            "title": "Samosa",
+            "ingredients": "Chicken, Spices, Oil, etc.",
+            "cookingtime": "30 minutes"
+        },
+        {
+            "id": 2,
+            "image": "https://via.placeholder.com/400x200",
+            "title": "Samosa",
+            "ingredients": "Chicken, Spices, Oil, etc.",
+            "cookingtime": "30 minutes"
         }
     ]
 }

@@ -1,7 +1,10 @@
-import React from 'react'
+import React from "react";
+import Cards from "../component/Cards";
 
 export default function Home() {
   return (
-    <div>Home</div>
-  )
+    <>
+      <div className="container mx-auto"><Cards /></div>
+    </>
+  );
 }
