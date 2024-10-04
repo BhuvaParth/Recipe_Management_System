@@ -4,18 +4,22 @@ import { useLocation } from "react-router-dom";
 export default function About() {
   const location = useLocation();
   const recipe = location.state;
+
   if (!recipe) {
     return <div className="text-center">No recipe data found.</div>;
   }
+
   return (
-    <div className="max-w-screen-xl w-full flex flex-col gap-4 mx-auto px-4 py-8">
-      <div className="flex justify-end items-center gap-2 top-4 right-4 space-x-2">
-        <button className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 transition">
-          Edit
-        </button>
-        <button className="bg-red-500 text-white px-4 py-2 rounded hover:bg-red-600 transition">
-          Delete
-        </button>
+    <div className="max-w-screen-xl w-full flex flex-col gap-4 mx-auto px-4 py-8 ">
+      <div className="flex flex-col md:flex-row justify-between md:justify-end items-center gap-2 mb-4">
+        <div className="flex justify-center w-full md:w-auto">
+          <button className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 transition">
+            Edit
+          </button>
+          <button className="bg-red-500 text-white px-4 py-2 rounded hover:bg-red-600 transition ml-2">
+            Delete
+          </button>
+        </div>
       </div>
 
       <div className="flex flex-col lg:flex-row items-center">
