@@ -61,11 +61,11 @@ export default function About() {
         </div>
         <div className="lg:w-2/2 max-w-2/2 lg:pl-8 max-h-[320px] min-h-[320px]">
           <h1 className="text-3xl font-bold mb-4">{recipe.title}</h1>
-          <p className="text-gray-700 mb-4">About : {recipe.description}</p>
+          <p className="text-gray-700 font-medium text-lg mb-4">About : {recipe.description}</p>
           <h2 className="text-xl font-semibold mb-2">Ingredients:</h2>
-          <p className="text-gray-700 mb-4">{recipe.ingredients}</p>
-          <p className="text-gray-500 mb-2">Cooking Time: {recipe.cookingTime}</p>
-          <p className="text-gray-500 text-lg font-bold mb-2">
+          <p className="text-gray-700 font-medium text-md mb-4">{recipe.ingredients}</p>
+          <p className="text-gray-700 font-medium text-lg mb-2"> <span className="text-lg font-semibold"> Cooking Time :</span> {recipe.cookingTime} Minutes.</p>
+          <p className="text-gray-800 text-xl font-bold mb-2">
             Price: ${recipe.price}
           </p>
         </div>

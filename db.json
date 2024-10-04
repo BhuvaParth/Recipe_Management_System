@@ -1,13 +1,13 @@
 {
   "recipesData": [
     {
-      "id": "mv50he3sm",
       "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_600/5726ce6376bfa8df5b276523ebaabaf0.jpg",
-      "title": "Cheese Fried Maggi",
+      "title": "Cheese Fried Maggi ",
       "description": "We start with perfectly cooked maggi noodles, tossed with a colorful medley of fresh vegetables including onions, bell peppers, carrots, peas, and cabbage, cheese lovers can enjoy a cheesy twist to their maggi by adding grated cheese or melting cheese on top of the cooked noodles.",
       "ingredients": "We start with perfectly cooked maggi noodles, tossed with a colorful medley of fresh vegetables including onions, bell peppers, ",
       "cookingTime": "30",
-      "price": "150"
+      "price": "150",
+      "id": "mv50he3sm"
     },
     {
       "id": "1wtz9iw71",
@@ -53,6 +53,60 @@
       "ingredients": "Smooth, creamy vanilla shake with rich, indulgent vanilla ice cream. (350ml)",
       "cookingTime": "20",
       "price": "32"
+    },
+    {
+      "id": "cjx757odk",
+      "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_600/z5pftwcuhvbfr8lkpce8",
+      "title": "Paneer Tikka Roll",
+      "description": "Serves 1 | Roll filled with juicy paneer cubes prepared with capsicum & warm Indian spices, grilled in tandoor to perfection, served with chutney and onion. Serves 1.",
+      "ingredients": "Serves 1 | Roll filled with juicy paneer cubes prepared with capsicum & warm Indian spices, grilled in tandoor to perfection, served with chutney and onion. Serves 1.",
+      "cookingTime": "25",
+      "price": "20"
+    },
+    {
+      "id": "iy7ddset0",
+      "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_600/is3ywtqhiijkvmfk8bfo",
+      "title": "Veg Paneer Roll",
+      "description": "Serves 1 | Golden brown roll prepared with paneer cubes, assorted veggies and soy sauce, pan fried till golden brown - perfect treat for your taste buds.",
+      "ingredients": "Serves 1 | Golden brown roll prepared with paneer cubes, assorted veggies and soy sauce, pan fried till golden brown - perfect treat for your taste buds.",
+      "cookingTime": "30",
+      "price": "25"
+    },
+    {
+      "id": "m7hazyscc",
+      "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_600/kkfx4ureoyev0ndgepkr",
+      "title": "Tawa Parathaa",
+      "description": "Tawa paratha also known as plain parathas are indian flatbread that are crisper and flakier version of phulka's and are traditionally cooked on tawa",
+      "ingredients": "Tawa paratha also known as plain parathas are indian flatbread that are crisper and flakier version of phulka's and are traditionally cooked on tawa",
+      "cookingTime": "25",
+      "price": "20"
+    },
+    {
+      "id": "un9np1qdf",
+      "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_600/mr5fvfdkexjcoxpztk51",
+      "title": "Mushroom Masala Sabzi ( Med Spicy )",
+      "description": "Mushroom Masala Sabzi ( Med Spicy )\n",
+      "ingredients": "Mushroom Masala Sabzi ( Med Spicy )\n",
+      "cookingTime": "35",
+      "price": "100"
+    },
+    {
+      "id": "bztdd5nla",
+      "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_600/ejvm5fqmfwxqj3visceb",
+      "title": "Mix Veg Sabzi With Paneer ( Med Spicy )",
+      "description": "Serves 1 | Mix veg curry is made by cooking a mixture of vegetables and cottage cheese together in a traditional Indian onion-tomato gravy. The dish is characterized by multiple flavors due to the addition of many vegetables which also makes it quite nutritious.",
+      "ingredients": "Serves 1 | Mix veg curry is made by cooking a mixture of vegetables and cottage cheese together in a traditional Indian onion-tomato gravy. The dish is characterized by multiple flavors due to",
+      "cookingTime": "25",
+      "price": "150"
+    },
+    {
+      "id": "rsofpnlm0",
+      "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_600/FOOD_CATALOG/IMAGES/CMS/2024/5/2/d415f41b-038e-4d7d-b87c-4fd0d5eb0605_0da2a517-239e-41bf-a436-c1d39f0b841e.jpg",
+      "title": "Coffee Caremal Cake 750Gm",
+      "description": "Try Our Special Coffee Caramel Chocolate Cake For Celebrations. Made With Coffee, Cocoa, And Caramel, Topped With Buttercream And Flowers.",
+      "ingredients": "Try Our Special Coffee Caramel Chocolate Cake For Celebrations. Made With Coffee, Cocoa, And Caramel, Topped With Buttercream And Flowers.",
+      "cookingTime": "60",
+      "price": "400"
     }
   ]
 }

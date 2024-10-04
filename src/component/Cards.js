@@ -71,12 +71,18 @@ export default function Cards({ searchQuery = "" }) {
                 className="w-full h-48 object-cover"
               />
               <div className="p-4">
-                <h2 className="text-lg font-semibold mb-2">{recipe.title}</h2>
-                <p className="text-gray-700 mb-2">
-                  Ingredients: {recipe.ingredients}
+                <h2 className="text-lg font-semibold mb-2">
+                  {recipe.title.length > 50 
+                    ? `${recipe.title.slice(0, 50)}...` 
+                    : recipe.title}
+                </h2>
+                <p className="text-gray-700 font-medium mb-2">
+                  Ingredients: {recipe.ingredients.length > 120 
+                    ? `${recipe.ingredients.slice(0, 120)}...` 
+                    : recipe.ingredients}
                 </p>
-                <p className="text-gray-500">
-                  Cooking Time: {recipe.cookingTime}
+                <p className="text-gray-800 font-medium">
+                  Cooking Time: {recipe.cookingTime} Minutes.
                 </p>
               </div>
             </Link>
