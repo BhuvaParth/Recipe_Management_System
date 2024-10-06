@@ -28,8 +28,6 @@ This is a Recipe Management application built with React.js and styled using Tai
 
 ### Installation
 
-### Go to Frontend folder and enter this commands
-
 #### Please Check must be your localhost:3001 for frontend
 
 ```bash
